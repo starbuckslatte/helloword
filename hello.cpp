@@ -17,7 +17,7 @@ void h1_text(string text)
 int main()
 {
     set_content_type("text / html"); // Output HTML boilerplate
-    cout << "<!doctype html>\n";
+    cout << "<!doctype html>\n";1
     cout << "<html lang =\"en\">\n";
     cout << "<head>\n";
     set_page_title("Hello, World !");
