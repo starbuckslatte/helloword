@@ -20,7 +20,7 @@ int main()
     cout << "<!doctype html>\n";
     cout << "<html lang =\"en\">\n";
     cout << "<head>\n";
-    set_page_title("Hello, World123 !");
+    set_page_title("Hello, World123456 !");
     cout << "</ head>\n";
     cout << "<body>\n";
     h1_text("Hello, World !");
