@@ -19,7 +19,7 @@ int main()
     set_content_type("text / html"); // Output HTML boilerplate
     cout << "<!doctype html>\n";
     cout << "<html lang =\"en\">\n";
-    cout << "<head>\n";1
+    cout << "<head>\n";
     set_page_title("Hello, World123 !");
     cout << "</ head>\n";
     cout << "<body>\n";
