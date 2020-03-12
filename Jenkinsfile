@@ -13,6 +13,7 @@ pipeline {
       }
       steps {
         echo 'Run Unit Test'
+        sh 'echo "123"'
       }
     }
 
