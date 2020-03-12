@@ -16,6 +16,12 @@ pipeline {
       }
     }
 
+    stage('Deliver') {
+      steps {
+        build 'UAT_MultiConfig'
+      }
+    }
+
   }
   environment {
     CI = 'true'
