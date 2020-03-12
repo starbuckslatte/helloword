@@ -16,7 +16,7 @@ pipeline {
       }
     }
 
-    stage('Deliver') {
+    stage('Deliver to ProductionVM') {
       steps {
         build 'UAT_MultiConfig'
       }
