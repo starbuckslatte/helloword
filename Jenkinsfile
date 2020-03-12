@@ -20,6 +20,7 @@ pipeline {
       parallel {
         stage('Deliver to ProductionVM') {
           steps {
+            input 'Are you sure to Continue to deploy?'
             build 'Route to Production'
           }
         }
