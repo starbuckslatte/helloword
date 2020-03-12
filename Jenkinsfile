@@ -17,8 +17,19 @@ pipeline {
     }
 
     stage('Deliver to ProductionVM') {
-      steps {
-        build 'Route to Production'
+      parallel {
+        stage('Deliver to ProductionVM') {
+          steps {
+            build 'Route to Production'
+          }
+        }
+
+        stage('Deliver to Test VM') {
+          steps {
+            build 'Route to Test VM'
+          }
+        }
+
       }
     }
 
