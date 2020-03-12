@@ -12,7 +12,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh 'echo "Run Shell Script Test"'
+        echo 'Run Unit Test'
       }
     }
 
